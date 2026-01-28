@@ -11,5 +11,5 @@ int main(){
     cin >> price;
     sales_tax = price * rate;
     total = price + sales_tax;
-    cout << fixed << setprecision(2) << "Your original price is " << price <<"\nYour sales tac amount is: " << sales_tax << "\nYour final total cost is: " << total;
+    cout << fixed << setprecision(2) << "Your original price is " << price <<"\nYour sales tax amount is: " << sales_tax << "\nYour final total cost is: " << total;
 }
